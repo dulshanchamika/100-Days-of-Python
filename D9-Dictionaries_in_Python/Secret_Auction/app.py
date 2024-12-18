@@ -9,6 +9,7 @@ def find_highest_bidder(bidding_dictionary):
 
     print(f"The winner is {winner} with a bid of ${highest_bid}.")
 
+
 bids = {}
 continue_bidding = True
 while continue_bidding:
