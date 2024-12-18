@@ -1,4 +1,3 @@
-from random import choice
 import art
 
 def add(n1, n2):
