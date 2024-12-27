@@ -24,7 +24,7 @@ account_b = random.choice(data)
 while game_should_continue:
     account_a = account_b
     account_b = random.choice(data)
-    
+
     if account_a == account_b:
         account_b = random.choice(data)
 
@@ -33,6 +33,9 @@ while game_should_continue:
     print(f"Against B:{format_data(account_b)}")
 
     guess = input("Who has more followers? Type 'A' or 'B': ").lower()
+
+    print("\n" * 20)
+    print(art.logo)
 
     a_follower_account = account_a['follower_count']
     b_follower_account = account_b['follower_count']
